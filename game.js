@@ -199,13 +199,6 @@ function gameInitialiser(){
 	ctx.font = '25px Arial';
 }
 
-document.addEventListener('click',function(event){
-				if(event){ //Spacebar keycode
-					y=y-dy;
-					wing.play();  
-				}
-			}, false);	
-
 document.addEventListener('keydown',function(event){
 				if(event.keyCode==82){ //r keyCode
 					stopAudio(gameOver);
