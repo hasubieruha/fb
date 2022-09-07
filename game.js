@@ -204,14 +204,7 @@ document.addEventListener('click',function(event){
 					y=y-dy;
 					wing.play();  
 				}
-			}, false);
-
-document.addEventListener('touchstart',function(event){
-				if(event){ //Spacebar keycode
-					y=y-dy;
-					wing.play();  
-				}
-			}, false);			
+			}, false);	
 
 document.addEventListener('keydown',function(event){
 				if(event.keyCode==82){ //r keyCode
