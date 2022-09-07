@@ -13,6 +13,10 @@ canvas{
 	margin-left: 36.5vw;
 }
 
+.text-center {
+  text-align: center;
+}
+
 #foot{
 	color: white;
 	text-align: center;
