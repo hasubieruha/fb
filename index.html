@@ -9,6 +9,19 @@
 </head>
 <body>
 	<canvas id="canvas"></canvas>	
+	<button id="myBtn">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", function(event){
+				if(event){ //Spacebar keycode
+					y=y-dy;
+					wing.play();  
+				}
+			}, false);	
+</script>
+	
 <script src="game.js"></script>
 </body>
 </html>
