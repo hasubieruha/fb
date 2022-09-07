@@ -1,8 +1,8 @@
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
-var canvasWidth=400;
-var canvasHeight=620;
+var canvasWidth=500;
+var canvasHeight=600;
 var screenWidth=window.innerWidth;
 var w;
 
